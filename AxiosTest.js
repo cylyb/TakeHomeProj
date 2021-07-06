@@ -68,8 +68,8 @@ const secretKey = process.env.API_SECRET;
     // const response = await axios.get(url, headers{
     //   headers: {
     //     'X-Request-ID': '###',
-    //     'X-API-Key': 'key-csecc-v8djx910vjcn85lcz8c7',
-    //     'X-API-Secret': 'secret-csecc-jf8c7h5n9v7cxf39z0fh'
+    //     'X-API-Key': '',
+    //     'X-API-Secret': ''
     //   }
     // })
 
