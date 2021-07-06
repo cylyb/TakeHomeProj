@@ -1,0 +1,19 @@
+{
+  "name": "redeam_project",
+  "version": "1.0.0",
+  "description": "redeam take home coding project",
+  "main": "AxiosTest.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "json-beautify": "^1.1.1",
+    "prompt-sync": "^4.2.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cyara Brown",
+  "license": "ISC"
+}
