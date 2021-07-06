@@ -24,9 +24,9 @@ const secretKey = process.env.API_SECRET;
   const productID = '02f0c6cb-77ae-4fcc-8f4d-99bc0c3bee18';
 
   //Asking user for start time input
-  //const startTime = prompt('What is your start time  (Future date - EX:2021-07-21T21:00:00Z)? ');
+  const startTime = prompt('What is your start time  (Future date - EX:2021-07-21T21:00:00Z)? ');
   //const endTime = prompt('What is your end time? ');
-  const startTime = '2021-07-21T21:00:00Z';
+  //const startTime = '2021-07-21T21:00:00Z';
   const endTime = '2021-07-29T21:00:00Z';
 
   try {
