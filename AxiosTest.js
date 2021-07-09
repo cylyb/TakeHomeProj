@@ -7,7 +7,9 @@ const prompt = require('prompt-sync')();
 //for the enviroment varaible file
 require('dotenv').config();
 
-//console.log('Test')
+const process = require('process');
+
+const [node, script, startTime] = process.argv;
 
 //Turn the keys from env file into variables
 const requestID = process.env.REQUEST_ID;
@@ -26,7 +28,7 @@ const secretKey = process.env.API_SECRET;
   //Asking user for start time input
   //const startTime = prompt('What is your start time  (Future date - EX:2021-07-21T21:00:00Z)? ');
   //const endTime = prompt('What is your end time? ');
-  const startTime = '2021-07-21T21:00:00Z';
+  //const startTime = '2021-07-21T21:00:00Z';
   const endTime = '2021-07-29T21:00:00Z';
 
   try {
