@@ -9,6 +9,7 @@ require('dotenv').config();
 
 const process = require('process');
 
+//command line argument 
 const [node, script, startTime] = process.argv;
 
 //Turn the keys from env file into variables
